@@ -20,4 +20,6 @@ test/example/pomelo
 test/example/wordpress
 test/example/xzdoc*
 .DS_Store
-doc/*.html
+doc
+
+xzdoc-templates/
