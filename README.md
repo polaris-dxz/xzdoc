@@ -1,4 +1,4 @@
-xzdoc 不再为文档而发愁 [![Build Status](https://secure.travis-ci.org/JacksonTian/xzdoc.png?branch=master)](http://travis-ci.org/JacksonTian/xzdoc)
+xzdoc 不再为文档而发愁 [![Build Status](https://secure.travis-ci.org/Yggdrasill-7C9/xzdoc.png?branch=master)](http://travis-ci.org/Yggdrasill-7C9/xzdoc)
 ======================
 ## 来源
 过去通常要自己维护API文档，这会是一件比较蛋疼的事情。所幸我们有[dox](https://github.com/visionmedia/dox)，dox可以帮我们解析注解。但是dox不能帮我们任意生成文档。于是就有了xzdoc，xzdoc基于dox的注解对象，加入模板。在遵循Github和CommonJS的约定后，xzdoc可以帮你的模块包快速生成文档。
@@ -15,7 +15,7 @@ $ npm install xzdoc -g
 
 ```
 // 签出xzdoc项目
-$ git clone git://github.com/JacksonTian/xzdoc.git ~/git/xzdoc
+$ git clone git://github.com/Yggdrasill-7C9/xzdoc.git ~/git/xzdoc
 // 去到项目目录
 $ cd xzdoc
 $ xzdoc build
@@ -47,15 +47,15 @@ $ xzdoc theme export -s pomelo
 // 导出主题模板后，自行修改，即可实现自定义模板的目的
 ```
 ## 查看文档效果
-通过将生成的文档放到gh-pages分支中，可以通过链接<http://jacksontian.github.com/xzdoc>直接查看效果。
+通过将生成的文档放到gh-pages分支中，可以通过链接<http://Yggdrasill-7C9.github.com/xzdoc>直接查看效果。
 
 目前提供三种模板
 
 ### 默认风格
-![defautl 默认风格](https://raw.github.com/JacksonTian/xzdoc/master/doc/default_style.png)
+![defautl 默认风格](https://raw.github.com/Yggdrasill-7C9/xzdoc/master/doc/default_style.png)
 
 ### wordpress风格
-![wordpress](https://raw.github.com/JacksonTian/xzdoc/master/doc/wordpress_style.png)
+![wordpress](https://raw.github.com/Yggdrasill-7C9/xzdoc/master/doc/wordpress_style.png)
 
 ### pomelo风格
 
@@ -114,4 +114,4 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## 捐赠
 如果您觉得本模块对您有帮助，欢迎请作者一杯咖啡
 
-[![捐赠xzdoc](https://img.alipay.com/sys/personalprod/style/mc/btn-index.png)](https://me.alipay.com/jacksontian)
+[![捐赠xzdoc](https://img.alipay.com/sys/personalprod/style/mc/btn-index.png)](https://me.alipay.com/Yggdrasill-7C9)

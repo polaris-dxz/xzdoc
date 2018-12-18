@@ -1,4 +1,4 @@
-xzdoc 不再为文档而发愁 [![Build Status](https://secure.travis-ci.org/JacksonTian/xzdoc.png?branch=master)](http://travis-ci.org/JacksonTian/xzdoc)
+xzdoc 不再为文档而发愁 [![Build Status](https://secure.travis-ci.org/Yggdrasill-7C9/xzdoc.png?branch=master)](http://travis-ci.org/Yggdrasill-7C9/xzdoc)
 ======================
 ## 来源
 过去通常要自己维护API文档，这会是一件比较蛋疼的事情。所幸我们有[dox](https://github.com/visionmedia/dox)，dox可以帮我们解析注解。但是dox不能帮我们任意生成文档。于是就有了xzdoc，xzdoc基于dox的注解对象，加入模板。在遵循Github和CommonJS的约定后，xzdoc可以帮你的模块包快速生成文档。
@@ -11,7 +11,7 @@ npm install xzdoc -g
 此处将以xzdoc项目自身作为例子：
 ```
 // 签出xzdoc项目
-git clone git://github.com/JacksonTian/xzdoc.git ~/git/xzdoc
+git clone git://github.com/Yggdrasill-7C9/xzdoc.git ~/git/xzdoc
 // 指定项目路径
 xzdoc -i ~/git/xzdoc
 // 在doc目录下将会得到文档
@@ -20,7 +20,7 @@ open ~/git/xzdoc/doc/index.html
 xzdoc -i ~/git/xzdoc -o ~/output
 ```
 ## 查看文档效果
-通过将生成的文档放到gh-pages分支中，可以通过链接<http://jacksontian.github.com/xzdoc>直接查看效果。
+通过将生成的文档放到gh-pages分支中，可以通过链接<http://Yggdrasill-7C9.github.com/xzdoc>直接查看效果。
 
 ## 选择模版
 ```
@@ -32,9 +32,9 @@ xzdoc -i ~/git/xzdoc -o ~/output -s wordpress
 目前提供两种模板
 
 - 默认风格
-![defautl 默认风格](https://raw.github.com/JacksonTian/xzdoc/master/doc/default_style.png)
+![defautl 默认风格](https://raw.github.com/Yggdrasill-7C9/xzdoc/master/doc/default_style.png)
 - wordpress风格
-![wordpress](https://raw.github.com/JacksonTian/xzdoc/master/doc/wordpress_style.png)
+![wordpress](https://raw.github.com/Yggdrasill-7C9/xzdoc/master/doc/wordpress_style.png)
 
 ## Github与CommonJS规范
 - 每个github项目下应该有一个README.md文件

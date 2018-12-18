@@ -8,7 +8,7 @@ describe("xzdoc", function () {
     var section = fs.readFileSync(path.join(__dirname, "../README.md"), "utf8");
     var titles = xzdoc.getIndexs(section);
     var except = [
-      { level: 1, title: 'xzdoc 不再为文档而发愁 [![Build Status](https://secure.travis-ci.org/JacksonTian/xzdoc.png?branch=master)](http://travis-ci.org/JacksonTian/xzdoc)'},
+      { level: 1, title: 'xzdoc 不再为文档而发愁 [![Build Status](https://secure.travis-ci.org/Yggdrasill-7C9/xzdoc.png?branch=master)](http://travis-ci.org/Yggdrasill-7C9/xzdoc)'},
       { level: 2, title: '来源' },
       { level: 2, title: 'Installation' },
       { level: 2, title: 'Usage' },
