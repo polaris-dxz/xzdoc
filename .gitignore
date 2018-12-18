@@ -31,3 +31,6 @@ bin
 lib
 test
 index.js
+.travis.yml
+.jshintrc
+package.json
