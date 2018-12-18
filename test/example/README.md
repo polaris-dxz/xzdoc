@@ -54,14 +54,14 @@ xzdoc将会扫描项目下的README.md和doc目录下的md文件，通过markdow
  commits  : 54
  files    : 28
  authors  :
-    49	Jackson Tian            90.7%
+    49	Yggdrasill-7C9            90.7%
      5	Lei Zongmin             9.3%
 
 ```
 
 ## License (MIT)
 ```
-Copyright (c) 2012 Jackson Tian
+Copyright (c) 2012 Yggdrasill-7C9
 http://weibo.com/shyvo
 
 The MIT License
