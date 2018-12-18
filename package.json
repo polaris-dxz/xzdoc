@@ -1,0 +1,46 @@
+{
+  "name": "xzdoc",
+  "version": "0.0.1",
+  "description": "Generate your documentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "bin": {
+    "doxmate": "bin/doxmate",
+    "doxmate-build": "bin/doxmate-build",
+    "doxmate-theme": "bin/doxmate-theme"
+  },
+  "keywords": [
+    "documentation",
+    "dox"
+  ],
+  "dependencies": {
+    "commander": "*",
+    "dox": "*",
+    "ejs": "*",
+    "marked": "*",
+    "mkdirp": "^0.5.0",
+    "ncp": "*"
+  },
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*"
+  },
+  "author": "Jackson Tian",
+  "contributors": [
+    "Yggdrasill <0x31f9f17@gmail.com> (https://github.com/Yggdrasill-7C9)"
+  ],
+  "license": "MIT",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Yggdrasill-7C9/xzdoc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yggdrasill-7C9/xzdoc/issues"
+  }
+}
