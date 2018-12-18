@@ -25,3 +25,9 @@ doc/Changelog.html
 doc/api.html
 doc/index.html
 xzdoc-templates/
+templates
+Makefile
+bin
+lib
+test
+index.js
