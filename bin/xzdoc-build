@@ -8,7 +8,7 @@ var program = require('commander'),
   mkdirp = require('mkdirp'),
   fs = require('fs'),
   path = require('path'),
-  doxmate = require('../');
+  xzdoc = require('../');
 
 // options
 
@@ -33,6 +33,6 @@ if (!docExists) {
   mkdirp.sync(docPath);
 }
 
-doxmate.process(path.resolve('.'), program.output, program.skin, program.dir);
+xzdoc.process(path.resolve('.'), program.output, program.skin, program.dir);
 console.log('Generated at "' + program.output + '".');
 console.log('Please open "' + program.output + '/index.html" to view it');

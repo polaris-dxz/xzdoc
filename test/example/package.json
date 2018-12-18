@@ -1,5 +1,5 @@
 {
-  "name": "doxmate",
+  "name": "xzdoc",
   "version": "0.0.13",
   "description": "Generate your documentation.",
   "main": "index.js",
@@ -7,10 +7,10 @@
     "test": "mocha"
   },
   "bin": {
-    "doxmate": "./bin/doxmate",
-    "doxmate-build": "./bin/doxmate-build",
-    "doxmate-list": "./bin/doxmate-list",
-    "doxmate-install": "./bin/doxmate-install"
+    "xzdoc": "./bin/xzdoc",
+    "xzdoc-build": "./bin/xzdoc-build",
+    "xzdoc-list": "./bin/xzdoc-list",
+    "xzdoc-install": "./bin/xzdoc-install"
   },
   "keywords": [
     "documentation",
