@@ -1,113 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>xzdoc Documentation</title>
-    <meta name="keywords" content="documentation,dox" />
-    <meta name="description" content="Generate your documentation." />
-    <script src="assets/prettify.js"></script>
-    <script src="assets/jquery-1.8.2.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/base.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-inverse navbar-static-top top-navbar" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="./index.html">xzdoc</a>
-        </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-          
-            <li>
-              <a href="./api.html">API Docs</a>
-            </li>
-          
-            <li>
-              <a href="./Changelog.html">Changelog</a>
-            </li>
-          
-          
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div>
-    </nav>
-    <header class="jumbotron subhead">
-      <div class="container">
-        <h1>xzdoc <small>Version: 0.0.4 By @Yggdrasill-7C9</small></h1>
-        <p class="lead">
-          Generate your documentation.
-        </p>
-      </div>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <title>xzdoc</title>
+  <script src="assets/jquery-1.8.2.min.js"></script>
+  <link rel="stylesheet" href="assets/wp4.css">
+  <link rel="shortcut icon" href="http://s.wordpress.org/favicon.ico?3" type="image/x-icon">
+</head>
 
-<div class="container content">
-  <div class="row">
-  	<div class="col-md-3">
-      <ul class="nav nav-list bs-docs-sidenav affix">
+<body id="wordpress-org">
+  <div id="header">
+    <div class="wrapper">
+      <h1><a href="./index.html">xzdoc</a></h1>
+      <form method="get" id="head-search">
+        Generate your documentation.
+      </form>
+  <ul>
+  
+    <li>
+      <a href="./api.html">API Docs</a>
+    </li>
+  
+  
+      <li>
+        <a href="./Changelog.html">Changelog</a>
+      </li>
+    
+  </ul>
+    </div>
+  </div>
+
+  <div id="headline">
+    <div class="wrapper">
+      <h2>xzdoc <small>Version: 0.0.4 By @Yggdrasill-7C9</small></h2>
+      <p></p>
+    </div>
+  </div>
+
+<div id="pagebody">
+  <div class="wrapper">
+    <div class="col-3" id="sidebar">
+      <ul class="submenu">
 
   <li class="level_2">
-    <a href="#index_来源" title="来源">
-      <i class="icon-chevron-right"></i>来源
-    </a>
+    <a href="#index_来源" title="来源">来源</a>
   </li>
 
   <li class="level_2">
-    <a href="#index_Installation" title="Installation">
-      <i class="icon-chevron-right"></i>Installation
-    </a>
+    <a href="#index_Installation" title="Installation">Installation</a>
   </li>
 
   <li class="level_2">
-    <a href="#index_Usage" title="Usage">
-      <i class="icon-chevron-right"></i>Usage
-    </a>
+    <a href="#index_Usage" title="Usage">Usage</a>
   </li>
 
   <li class="level_2">
-    <a href="#index_查看文档效果" title="查看文档效果">
-      <i class="icon-chevron-right"></i>查看文档效果
-    </a>
+    <a href="#index_查看文档效果" title="查看文档效果">查看文档效果</a>
   </li>
 
   <li class="level_2">
-    <a href="#index_Github与CommonJS规范" title="Github与CommonJS规范">
-      <i class="icon-chevron-right"></i>Github与CommonJS规范
-    </a>
+    <a href="#index_Github与CommonJS规范" title="Github与CommonJS规范">Github与CommonJS规范</a>
   </li>
 
   <li class="level_2">
-    <a href="#index_贡献者" title="贡献者">
-      <i class="icon-chevron-right"></i>贡献者
-    </a>
+    <a href="#index_贡献者" title="贡献者">贡献者</a>
   </li>
 
   <li class="level_2">
-    <a href="#index_License (MIT)" title="License (MIT)">
-      <i class="icon-chevron-right"></i>License (MIT)
-    </a>
+    <a href="#index_License (MIT)" title="License (MIT)">License (MIT)</a>
   </li>
 
   <li class="level_2">
-    <a href="#index_捐赠" title="捐赠">
-      <i class="icon-chevron-right"></i>捐赠
-    </a>
+    <a href="#index_捐赠" title="捐赠">捐赠</a>
   </li>
 
 </ul>
-
     </div>
-    <div class="col-md-9">
-      <section>
-        <h1 id="xzdoc-build-status">xzdoc 不再为文档而发愁 <a href="http://travis-ci.org/Yggdrasill-7C9/xzdoc"><img src="https://secure.travis-ci.org/Yggdrasill-7C9/xzdoc.png?branch=master" alt="Build Status"></a></h1>
+    <div class="col-9">
+      <h1 id="xzdoc-build-status">xzdoc 不再为文档而发愁 <a href="http://travis-ci.org/Yggdrasill-7C9/xzdoc"><img src="https://secure.travis-ci.org/Yggdrasill-7C9/xzdoc.png?branch=master" alt="Build Status"></a></h1>
 <h2 id="-">来源</h2>
 <p>过去通常要自己维护API文档，这会是一件比较蛋疼的事情。所幸我们有<a href="https://github.com/visionmedia/dox">dox</a>，dox可以帮我们解析注解。但是dox不能帮我们任意生成文档。于是就有了xzdoc，xzdoc基于dox的注解对象，加入模板。在遵循Github和CommonJS的约定后，xzdoc可以帮你的模块包快速生成文档。</p>
 <h2 id="installation">Installation</h2>
@@ -187,57 +157,40 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</code></pre><h2 id="-">捐赠</h2>
 <p>如果您觉得本模块对您有帮助，欢迎请作者一杯咖啡</p>
 <p><a href="https://me.alipay.com/Yggdrasill-7C9"><img src="https://img.alipay.com/sys/personalprod/style/mc/btn-index.png" alt="捐赠xzdoc"></a></p>
 
-      </section>
-  
+    
     </div>
   </div>
 </div>
-      <footer class="footer">
-        <div class="container">
-          <p class="pull-right">
-            <a href="#">Back to top</a>
-          </p>
-          <p>此文档通过xzdoc生成。主题借鉴Bootstrap API文档风格，注解基于<a href="https://github.com/visionmedia/dox">Dox</a>。欢迎关注xzdoc作者<a href="http://weibo.com/shyvo" target="_blank">@朴灵</a></p>
-          <ul class="footer-links">
-            <li><a href="https://github.com/visionmedia/dox">Dox主页</a></li>
-            <li><a href="http://html5ify.com/xzdoc">xzdoc主页</a></li>
-            <li><a href="https://github.com/Yggdrasill-7C9/xzdoc">xzdoc源码</a></li>
-            <li><a href="https://github.com/Yggdrasill-7C9/xzdoc/issues?state=open">提交bug</a></li>
-          </ul>
-      </div>
-    </footer>
-    <script>
-      $(function() {
-        $('pre').addClass('prettyprint');
-        $('td pre').removeClass('prettyprint');
-        prettyPrint();
-        var $window = $(window);
-        var sidenav = $('.bs-docs-sidenav');
-        if (sidenav.height() < window.innerHeight) {
-          sidenav.affix({
-            offset: {
-              top: function () {
-                return $window.width() <= 980 ? 290 : 210
-              },
-              bottom: 200
-            }
-          });
-        } else {
-          sidenav.removeClass('affix');
-        }
-        $(".content").find('h1, h2, h3, h4, h5, h6').each(function () {
-          var node = $(this);
-          // 总是设置id
-          node.attr("id", node.data('id') || "index_" + node.text());
-        });
+<br class="clear">
+<div id="footer">
+	<div class="wrapper">
+    <p>
+      此文档通过xzdoc生成。主题借鉴Wordpress首页风格，注解基于<a href="https://github.com/visionmedia/dox">Dox</a>。欢迎关注xzdoc作者<a href="http://weibo.com/shyvo" target="_blank">@朴灵</a>
+    </p>
+    <p>
+      | <a href="https://github.com/visionmedia/dox">Dox主页</a>
+      | <a href="http://html5ify.com/xzdoc">xzdoc主页</a>
+      | <a href="https://github.com/Yggdrasill-7C9/xzdoc/issues?state=open">提交bug</a>
+    </p>
+		<h6>xzdoc is awesome</h6>
+	</div>
+</div>
 
-        $('.bs-docs-sidenav .accordion-marker').on('click', function(event) {
-          var current = $(event.currentTarget);
-          current.find('.glyphicon').toggleClass('glyphicon-chevron-right glyphicon-chevron-down');
-        });
-      });
-    </script>
-  
-  </body>
+
+  <script>
+  	var splited = location.pathname.split('/');
+  	var filename = splited[splited.length - 1].split('.')[0];
+  	$("#header li a").each(function () {
+  		if ($(this).text() === filename) {
+  			$(this).addClass('current');
+  		}
+  	});
+    $(".col-9").find('h1, h2, h3, h4, h5, h6').each(function () {
+      var node = $(this);
+      // 总是设置id
+      node.attr("id", "index_" + node.text());
+    });
+  </script>
+</body>
 </html>
 
