@@ -46,72 +46,31 @@ $ xzdoc theme export -s pomelo
 // 通过xzdoc build创建文档的时，优先读取该目录
 // 导出主题模板后，自行修改，即可实现自定义模板的目的
 ```
-## 查看文档效果
-通过将生成的文档放到gh-pages分支中，可以通过链接<http://Yggdrasill-7C9.github.com/xzdoc>直接查看效果。
-
-目前提供三种模板
-
-### 默认风格
-![defautl 默认风格](https://raw.github.com/Yggdrasill-7C9/xzdoc/master/doc/default_style.png)
-
-### wordpress风格
-![wordpress](https://raw.github.com/Yggdrasill-7C9/xzdoc/master/doc/wordpress_style.png)
-
-### pomelo风格
-
-## Github与CommonJS规范
-- 每个github项目下应该有一个README.md文件
-- CommonJS规范建议文档存在在`doc`目录下
-- CommonJS规范建议代码存在在`lib`目录下
-
-xzdoc将会扫描项目下的README.md和doc目录下的md文件，通过markdown渲染，生成页面。扫描lib目录下的文件，通过dox解析内容，生成API文档页面。
-
-## 贡献者
-
-以下数据由`git-summary`于2012-10-27生成：
-
-```
- project  : xzdoc
- repo age : 11 months
- active   : 21 days
- commits  : 89
- files    : 94
- authors  : 
-    71  Yggdrasill-7C9            79.8%
-    10  youxiachai              11.2%
-     5  Lei Zongmin             5.6%
-     3  aleafs                  3.4%
-
-```
-
 ## License (MIT)
 MIT许可，请自由享用。
 
 ```
-Copyright (c) 2012 Yggdrasill-7C9
-http://weibo.com/shyvo
+MIT License
 
-The MIT License
+Copyright (c) 2018 枯れない花
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this
-software and associated documentation files (the "Software"), to deal in the Software
-without restriction, including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to the
-following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies
-or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
-CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
-OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
-## 捐赠
-如果您觉得本模块对您有帮助，欢迎请作者一杯咖啡
 
-[![捐赠xzdoc](https://img.alipay.com/sys/personalprod/style/mc/btn-index.png)](https://me.alipay.com/Yggdrasill-7C9)
